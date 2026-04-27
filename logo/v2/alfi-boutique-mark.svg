@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Alfi Boutique mark">
+  <title>Alfi Boutique - Mark only</title>
+  <desc>Standalone calligraphic ف. Use for buttons, tags, embossing, sub-branding.</desc>
+
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
+      .ar-display { font-family: 'Aref Ruqaa', 'Amiri Quran', 'Amiri', serif; font-weight: 700; }
+    ]]></style>
+  </defs>
+
+  <text x="256" y="380" text-anchor="middle"
+        class="ar-display"
+        font-size="480"
+        fill="#3D2817"
+        direction="rtl">ف</text>
+</svg>

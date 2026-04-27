@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500" width="1400" height="500" role="img" aria-label="Alfi Boutique - الفي بوتيك">
+  <title>Alfi Boutique - Horizontal</title>
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Amiri:wght@400;700&family=Cinzel:wght@300;400&display=swap');
+      .ar-display { font-family: 'Aref Ruqaa', 'Amiri Quran', 'Amiri', serif; font-weight: 700; }
+      .ar-wordmark { font-family: 'Aref Ruqaa', 'Amiri', serif; font-weight: 400; }
+      .lt-wordmark { font-family: 'Cinzel', 'Cormorant Garamond', serif; font-weight: 300; letter-spacing: 0.55em; }
+    ]]></style>
+  </defs>
+
+  <rect width="1400" height="500" fill="#F4ECD8"/>
+
+  <!-- ف on the right (since Arabic flows right-to-left, the "first" position is right) -->
+  <text x="380" y="360" text-anchor="middle"
+        class="ar-display" font-size="420" fill="#3D2817" direction="rtl">ف</text>
+
+  <!-- Vertical thin separator -->
+  <line x1="640" y1="180" x2="640" y2="320" stroke="#B8935A" stroke-width="0.6"/>
+
+  <!-- Wordmark stacked on the right -->
+  <g transform="translate(1020 250)">
+    <text x="0" y="-10" text-anchor="middle" class="ar-wordmark"
+          font-size="100" fill="#3D2817" letter-spacing="8" direction="rtl">الفي بوتيك</text>
+    <line x1="-50" y1="40" x2="50" y2="40" stroke="#B8935A" stroke-width="0.6"/>
+    <text x="0" y="100" text-anchor="middle" class="lt-wordmark"
+          font-size="32" fill="#B8935A">ALFI BOUTIQUE</text>
+  </g>
+</svg>

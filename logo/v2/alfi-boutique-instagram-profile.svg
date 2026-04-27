@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="Alfi Boutique - Instagram profile">
+  <title>Alfi Boutique - Instagram Profile Picture</title>
+  <desc>1:1 square. Optimized for circular crop on Instagram avatars.</desc>
+
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cinzel:wght@300;400&display=swap');
+      .ar-display { font-family: 'Aref Ruqaa', 'Amiri Quran', 'Amiri', serif; font-weight: 700; }
+      .lt-wordmark { font-family: 'Cinzel', 'Cormorant Garamond', serif; font-weight: 300; letter-spacing: 0.5em; }
+    ]]></style>
+  </defs>
+
+  <!-- Deep cocoa fills the safe-zone for IG circular crop -->
+  <rect width="1080" height="1080" fill="#3D2817"/>
+
+  <!-- Subtle inner ring (a quiet luxury cue, well within safe area) -->
+  <circle cx="540" cy="540" r="430" fill="none" stroke="#B8935A" stroke-width="1.2" opacity="0.45"/>
+
+  <!-- Calligraphic ف in champagne gold, perfectly centered -->
+  <text x="540" y="660" text-anchor="middle"
+        class="ar-display"
+        font-size="600"
+        fill="#D4B896"
+        direction="rtl">ف</text>
+
+  <!-- Tiny Latin wordmark below for scale anchor -->
+  <text x="540" y="850" text-anchor="middle"
+        class="lt-wordmark"
+        font-size="32"
+        fill="#B8935A"
+        opacity="0.85">ALFI BOUTIQUE</text>
+</svg>

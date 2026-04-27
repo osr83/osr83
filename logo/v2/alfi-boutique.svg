@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Alfi Boutique - الفي بوتيك">
+  <title>Alfi Boutique - Master</title>
+  <desc>Restrained Saudi luxury. Calligraphic ف as primary mark with bilingual wordmark.</desc>
+
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Amiri:wght@400;700&family=Cinzel:wght@300;400&family=Cormorant+Garamond:wght@300;400&display=swap');
+      .ar-display { font-family: 'Aref Ruqaa', 'Amiri Quran', 'Amiri', serif; font-weight: 700; }
+      .ar-wordmark { font-family: 'Aref Ruqaa', 'Amiri', 'Scheherazade New', serif; font-weight: 400; }
+      .lt-wordmark { font-family: 'Cinzel', 'Cormorant Garamond', 'Trajan Pro', serif; font-weight: 300; letter-spacing: 0.55em; }
+    ]]></style>
+  </defs>
+
+  <!-- Warm ivory background -->
+  <rect width="800" height="1000" fill="#F4ECD8"/>
+
+  <!-- Calligraphic ف — the primary mark -->
+  <text x="400" y="500" text-anchor="middle"
+        class="ar-display"
+        font-size="420"
+        fill="#3D2817"
+        direction="rtl">ف</text>
+
+  <!-- Whisper-thin gold rule (60px, hairline) -->
+  <line x1="370" y1="600" x2="430" y2="600" stroke="#B8935A" stroke-width="0.8"/>
+
+  <!-- Arabic wordmark in cocoa -->
+  <text x="400" y="700" text-anchor="middle"
+        class="ar-wordmark"
+        font-size="64"
+        fill="#3D2817"
+        letter-spacing="6"
+        direction="rtl">الفي بوتيك</text>
+
+  <!-- Latin wordmark in warm gold, very wide tracking -->
+  <text x="400" y="790" text-anchor="middle"
+        class="lt-wordmark"
+        font-size="32"
+        fill="#B8935A">ALFI BOUTIQUE</text>
+</svg>

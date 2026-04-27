@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1300" width="1800" height="1300" role="img" aria-label="Instagram story highlight covers">
+  <title>Alfi Boutique - Story Highlight Covers</title>
+  <desc>Six unified Instagram story highlight covers. Each circle exports to its own 1080x1080 cover.</desc>
+
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Amiri:wght@400;700&family=Cinzel:wght@300&display=swap');
+      .ar-display { font-family: 'Aref Ruqaa', 'Amiri Quran', 'Amiri', serif; font-weight: 700; }
+      .ar-label   { font-family: 'Aref Ruqaa', 'Amiri', serif; font-weight: 400; letter-spacing: 4; }
+      .lt-label   { font-family: 'Cinzel', serif; font-weight: 300; letter-spacing: 0.4em; }
+    ]]></style>
+
+    <!-- Reusable circle template -->
+    <symbol id="cover" viewBox="-200 -200 400 400" overflow="visible">
+      <circle r="200" fill="#3D2817"/>
+      <circle r="160" fill="none" stroke="#B8935A" stroke-width="0.8" opacity="0.5"/>
+    </symbol>
+  </defs>
+
+  <rect width="1800" height="1300" fill="#F4ECD8"/>
+
+  <!-- Title -->
+  <text x="900" y="80" text-anchor="middle" class="lt-label" font-size="22" fill="#3D2817">STORY HIGHLIGHTS</text>
+
+  <!-- Row 1 -->
+  <g transform="translate(350 350)">
+    <use href="#cover"/>
+    <text y="30" text-anchor="middle" class="ar-label" font-size="60" fill="#D4B896" direction="rtl">الجديد</text>
+  </g>
+
+  <g transform="translate(900 350)">
+    <use href="#cover"/>
+    <!-- Stylized abaya silhouette -->
+    <path d="M -45 -90 Q -50 -100 -25 -100 L 25 -100 Q 50 -100 45 -90 L 60 60 Q 65 80 50 90 L -50 90 Q -65 80 -60 60 Z"
+          fill="none" stroke="#D4B896" stroke-width="2.5" stroke-linejoin="round"/>
+    <line x1="0" y1="-80" x2="0" y2="80" stroke="#D4B896" stroke-width="0.8" opacity="0.5"/>
+    <text y="155" text-anchor="middle" class="ar-label" font-size="34" fill="#D4B896" direction="rtl">عبايات</text>
+  </g>
+
+  <g transform="translate(1450 350)">
+    <use href="#cover"/>
+    <!-- Stylized dress silhouette -->
+    <path d="M -20 -90 L 20 -90 L 25 -50 L 50 0 L 80 80 L -80 80 L -50 0 L -25 -50 Z"
+          fill="none" stroke="#D4B896" stroke-width="2.5" stroke-linejoin="round"/>
+    <text y="155" text-anchor="middle" class="ar-label" font-size="34" fill="#D4B896" direction="rtl">فساتين</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(350 950)">
+    <use href="#cover"/>
+    <!-- Pearl necklace -->
+    <path d="M -90 -30 Q 0 70 90 -30" fill="none" stroke="#D4B896" stroke-width="1.2"/>
+    <g fill="#D4B896">
+      <circle cx="-80" cy="-22" r="5"/>
+      <circle cx="-58" cy="5"  r="5"/>
+      <circle cx="-30" cy="32" r="5"/>
+      <circle cx="0"   cy="42" r="6"/>
+      <circle cx="30"  cy="32" r="5"/>
+      <circle cx="58"  cy="5"  r="5"/>
+      <circle cx="80"  cy="-22" r="5"/>
+    </g>
+    <text y="155" text-anchor="middle" class="ar-label" font-size="34" fill="#D4B896" direction="rtl">إكسسوارات</text>
+  </g>
+
+  <g transform="translate(900 950)">
+    <use href="#cover"/>
+    <!-- Elegant percent -->
+    <text y="40" text-anchor="middle" class="ar-display" font-size="200" fill="#D4B896">٪</text>
+    <text y="155" text-anchor="middle" class="ar-label" font-size="34" fill="#D4B896" direction="rtl">تخفيضات</text>
+  </g>
+
+  <g transform="translate(1450 950)">
+    <use href="#cover"/>
+    <!-- Envelope -->
+    <rect x="-80" y="-40" width="160" height="100" rx="3" fill="none" stroke="#D4B896" stroke-width="2.5"/>
+    <path d="M -80 -40 L 0 30 L 80 -40" fill="none" stroke="#D4B896" stroke-width="2.5"/>
+    <text y="155" text-anchor="middle" class="ar-label" font-size="34" fill="#D4B896" direction="rtl">تواصل</text>
+  </g>
+
+  <!-- Footer note -->
+  <text x="900" y="1260" text-anchor="middle" class="lt-label" font-size="14" fill="#3D2817" opacity="0.6">EXPORT EACH CIRCLE AS A SEPARATE 1080×1080 PNG FOR INSTAGRAM</text>
+</svg>
