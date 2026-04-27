@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Alfi Boutique - الفي بوتيك">
+  <title>Alfi Boutique</title>
+  <desc>Vertical logo for Alfi Boutique (الفي بوتيك)</desc>
+
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:wght@300;400;500&family=Amiri:wght@400;700&display=swap');
+      .mono-latin { font-family: 'Cormorant Garamond', 'Playfair Display', 'Times New Roman', serif; font-weight: 300; }
+      .mono-arabic { font-family: 'Amiri', 'Scheherazade New', 'Noto Naskh Arabic', serif; font-weight: 700; }
+      .name-arabic { font-family: 'Amiri', 'Scheherazade New', 'Noto Naskh Arabic', serif; font-weight: 400; }
+      .name-latin { font-family: 'Cinzel', 'Trajan Pro', 'Cormorant Garamond', serif; font-weight: 500; letter-spacing: 0.42em; }
+    ]]></style>
+
+    <!-- Reusable single leaf -->
+    <symbol id="leaf" viewBox="-12 -36 24 36" overflow="visible">
+      <path d="M 0,0 C -6,-10 -10,-22 0,-34 C 10,-22 6,-10 0,0 Z"/>
+      <path d="M 0,-2 L 0,-32" stroke="#F6EDD9" stroke-width="0.6" opacity="0.55" fill="none"/>
+    </symbol>
+
+    <!-- Small ornamental diamond -->
+    <symbol id="diamond" viewBox="-8 -8 16 16" overflow="visible">
+      <path d="M 0,-7 L 5,0 L 0,7 L -5,0 Z"/>
+      <circle cx="0" cy="0" r="1.2" fill="#F6EDD9"/>
+    </symbol>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="#F6EDD9"/>
+
+  <!-- ============================================ -->
+  <!-- Emblem: monogram inside circle with foliage  -->
+  <!-- ============================================ -->
+  <g id="emblem" transform="translate(400 320)">
+    <!-- Outer hairline ring -->
+    <circle r="208" fill="none" stroke="#B8935A" stroke-width="0.6" opacity="0.45"/>
+    <!-- Main ring (with subtle gap at top to mimic original) -->
+    <circle r="200" fill="none" stroke="#B8935A" stroke-width="1.6"
+            stroke-dasharray="610 18" stroke-dashoffset="295"/>
+
+    <!-- Tiny accent dots at the top of the ring -->
+    <circle cx="-8" cy="-200" r="1.6" fill="#B8935A"/>
+    <circle cx="8" cy="-200" r="1.6" fill="#B8935A"/>
+
+    <!-- Foliage cluster (left side, growing up-right) -->
+    <g id="foliage" transform="translate(-130 80)">
+      <!-- Curved primary stem -->
+      <path d="M 10,30 C 0,-10 -5,-60 -10,-110 C -15,-150 -20,-180 -25,-200"
+            stroke="#B8935A" stroke-width="1" fill="none" stroke-linecap="round"/>
+      <!-- Side branches -->
+      <path d="M -2,-30 C -18,-38 -38,-44 -58,-40" stroke="#B8935A" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+      <path d="M -8,-80 C -26,-92 -50,-96 -70,-88" stroke="#B8935A" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+      <path d="M -14,-130 C -32,-138 -52,-140 -64,-132" stroke="#B8935A" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+      <path d="M -20,-170 C -32,-176 -42,-176 -48,-170" stroke="#B8935A" stroke-width="0.6" fill="none" stroke-linecap="round"/>
+      <!-- Right inner branch -->
+      <path d="M 4,-50 C 14,-58 22,-58 28,-52" stroke="#B8935A" stroke-width="0.6" fill="none" stroke-linecap="round"/>
+      <path d="M -2,-100 C 10,-110 20,-112 28,-106" stroke="#B8935A" stroke-width="0.6" fill="none" stroke-linecap="round"/>
+
+      <!-- Gold leaves -->
+      <use href="#leaf" x="0" y="0" transform="translate(-58 -40) rotate(-115) scale(1.15)" fill="#B8935A"/>
+      <use href="#leaf" transform="translate(-70 -88) rotate(-105) scale(1.05)" fill="#B8935A"/>
+      <use href="#leaf" transform="translate(-64 -132) rotate(-100) scale(0.9)" fill="#B8935A"/>
+      <use href="#leaf" transform="translate(-48 -170) rotate(-80) scale(0.75)" fill="#B8935A"/>
+      <use href="#leaf" transform="translate(28 -52) rotate(60) scale(0.85)" fill="#B8935A"/>
+      <use href="#leaf" transform="translate(28 -106) rotate(50) scale(0.8)" fill="#B8935A"/>
+      <use href="#leaf" transform="translate(-25 -200) rotate(-25) scale(0.7)" fill="#B8935A"/>
+
+      <!-- Blush accent leaves -->
+      <use href="#leaf" transform="translate(-50 -65) rotate(-130) scale(0.9)" fill="#E8B8AC" opacity="0.95"/>
+      <use href="#leaf" transform="translate(-55 -110) rotate(-115) scale(0.85)" fill="#E8B8AC" opacity="0.9"/>
+      <use href="#leaf" transform="translate(20 -80) rotate(45) scale(0.7)" fill="#E8B8AC" opacity="0.9"/>
+
+      <!-- Small berry accents -->
+      <circle cx="-30" cy="-30" r="2.2" fill="#B8935A"/>
+      <circle cx="-22" cy="-58" r="1.8" fill="#B8935A"/>
+      <circle cx="-12" cy="-188" r="1.6" fill="#B8935A"/>
+    </g>
+
+    <!-- Monogram: A overlaid with ف -->
+    <g id="monogram">
+      <!-- Latin A (light serif, deep gold) -->
+      <text x="0" y="78" text-anchor="middle"
+            class="mono-latin"
+            font-size="320"
+            fill="#8B6F3F">A</text>
+      <!-- Arabic ف (overlapping, primary gold) -->
+      <text x="22" y="60" text-anchor="middle"
+            class="mono-arabic"
+            font-size="260"
+            fill="#B8935A"
+            direction="rtl">ف</text>
+    </g>
+  </g>
+
+  <!-- ============================================ -->
+  <!-- Wordmark                                     -->
+  <!-- ============================================ -->
+
+  <!-- Arabic name -->
+  <text x="400" y="680" text-anchor="middle"
+        class="name-arabic"
+        font-size="86"
+        fill="#8B6F3F"
+        direction="rtl">الفي بوتيك</text>
+
+  <!-- Decorative divider with diamond -->
+  <g transform="translate(400 730)" stroke="#B8935A" fill="#B8935A">
+    <line x1="-150" y1="0" x2="-16" y2="0" stroke-width="0.6"/>
+    <line x1="16"  y1="0" x2="150"  y2="0" stroke-width="0.6"/>
+    <use href="#diamond" transform="scale(0.85)"/>
+  </g>
+
+  <!-- English name -->
+  <text x="400" y="800" text-anchor="middle"
+        class="name-latin"
+        font-size="50"
+        fill="#B8935A">ALFI BOUTIQUE</text>
+
+  <!-- Bottom small ornament -->
+  <g transform="translate(400 858)" stroke="#B8935A" fill="#B8935A">
+    <line x1="-40" y1="0" x2="-8" y2="0" stroke-width="0.5"/>
+    <line x1="8"  y1="0" x2="40"  y2="0" stroke-width="0.5"/>
+    <use href="#diamond" transform="scale(0.5)"/>
+  </g>
+</svg>
