@@ -43,7 +43,8 @@
             </a>
             <nav class="nav-desktop">
                 <a href="#product">المنتج</a>
-                <a href="#features">المميزات</a>
+                <a href="#gallery">الصور</a>
+                <a href="#video-demo">الفيديو</a>
                 <a href="#bundles">الباقات</a>
                 <a href="#reviews">التقييمات</a>
                 <a href="#faq">الأسئلة</a>
@@ -232,6 +233,211 @@
                     <div class="ba-room sunset"></div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- 📸 Product Gallery -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-tag">📸 معرض الصور</span>
+                <h2 class="section-title">شوف <span class="gradient-text">المصباح</span> من كل زاوية</h2>
+                <p class="section-sub">صور حقيقية بدقة عالية لتشوف الجودة قبل الشراء</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-main" id="galleryMain">
+                    <div class="gallery-img mood-warm" data-img="warm">
+                        <div class="gallery-lamp">
+                            <div class="gl-glow"></div>
+                            <div class="gl-body"></div>
+                            <div class="gl-base"></div>
+                        </div>
+                        <span class="gallery-label">🌅 وضع الغروب</span>
+                    </div>
+                </div>
+                <div class="gallery-thumbs">
+                    <button class="thumb active" data-img="warm" aria-label="وضع الغروب">
+                        <div class="thumb-mini mood-warm"></div>
+                        <span>غروب</span>
+                    </button>
+                    <button class="thumb" data-img="rose" aria-label="وضع الورد">
+                        <div class="thumb-mini mood-rose"></div>
+                        <span>وردي</span>
+                    </button>
+                    <button class="thumb" data-img="purple" aria-label="وضع الأرجواني">
+                        <div class="thumb-mini mood-purple"></div>
+                        <span>أرجواني</span>
+                    </button>
+                    <button class="thumb" data-img="gold" aria-label="وضع الذهبي">
+                        <div class="thumb-mini mood-gold"></div>
+                        <span>ذهبي</span>
+                    </button>
+                    <button class="thumb" data-img="room" aria-label="في الغرفة">
+                        <div class="thumb-mini mood-room"></div>
+                        <span>الغرفة</span>
+                    </button>
+                    <button class="thumb" data-img="box" aria-label="التغليف">
+                        <div class="thumb-mini mood-box"></div>
+                        <span>الكرتون</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="gallery-strip">
+                <div class="strip-card">
+                    <div class="strip-icon">📦</div>
+                    <strong>تغليف فاخر</strong>
+                    <small>علبة سوداء بشريط ذهبي</small>
+                </div>
+                <div class="strip-card">
+                    <div class="strip-icon">🔌</div>
+                    <strong>كابل USB طويل</strong>
+                    <small>1.5 متر مقاوم للقطع</small>
+                </div>
+                <div class="strip-card">
+                    <div class="strip-icon">🎨</div>
+                    <strong>16 لون متدرج</strong>
+                    <small>تحكم كامل بالأجواء</small>
+                </div>
+                <div class="strip-card">
+                    <div class="strip-icon">📏</div>
+                    <strong>14×14×24 سم</strong>
+                    <small>حجم مثالي للمكتب</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🎬 Video Demo -->
+    <section class="video-demo" id="video-demo">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-tag">🎬 فيديو</span>
+                <h2 class="section-title">شوف <span class="gradient-text">المصباح</span> وهو يشتغل</h2>
+                <p class="section-sub">دقيقة واحدة وراح تفهم ليش الكل يحبه</p>
+            </div>
+
+            <div class="video-player" id="mainVideo">
+                <div class="video-poster">
+                    <div class="vp-bg">
+                        <div class="vp-lamp">
+                            <div class="vp-glow"></div>
+                        </div>
+                    </div>
+                    <button class="play-btn" aria-label="تشغيل الفيديو">
+                        <span class="play-icon">▶</span>
+                    </button>
+                    <div class="video-meta">
+                        <span class="video-duration">0:58</span>
+                        <span class="video-views">👁️ 2.3M</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-features">
+                <div class="vf-item">
+                    <strong>4K</strong>
+                    <small>دقة عالية</small>
+                </div>
+                <div class="vf-item">
+                    <strong>HD</strong>
+                    <small>صوت نقي</small>
+                </div>
+                <div class="vf-item">
+                    <strong>60s</strong>
+                    <small>دقيقة كاملة</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🎵 TikTok Reviews -->
+    <section class="tiktok-section" id="tiktok">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-tag">🎵 على تيك توك</span>
+                <h2 class="section-title">شوف <span class="gradient-text">العملاء</span> يتكلمون عنه</h2>
+                <p class="section-sub">+50 مليون مشاهدة على تيك توك حول العالم</p>
+            </div>
+
+            <div class="tiktok-grid">
+                <div class="tt-card mood-rose">
+                    <div class="tt-overlay">
+                        <button class="tt-play" aria-label="تشغيل">▶</button>
+                        <div class="tt-info">
+                            <div class="tt-user">
+                                <div class="tt-avatar">س</div>
+                                <span>@sara.uae</span>
+                            </div>
+                            <p class="tt-caption">"غرفتي صارت Aesthetic بضغطة زر 🌅"</p>
+                            <div class="tt-stats">
+                                <span>❤️ 124K</span>
+                                <span>💬 3.2K</span>
+                                <span>🔄 8.5K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tt-card mood-purple">
+                    <div class="tt-overlay">
+                        <button class="tt-play" aria-label="تشغيل">▶</button>
+                        <div class="tt-info">
+                            <div class="tt-user">
+                                <div class="tt-avatar">م</div>
+                                <span>@mohamed.dxb</span>
+                            </div>
+                            <p class="tt-caption">"أحلى استثمار سويته للغرفة 💜"</p>
+                            <div class="tt-stats">
+                                <span>❤️ 89K</span>
+                                <span>💬 2.1K</span>
+                                <span>🔄 5.3K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tt-card mood-warm">
+                    <div class="tt-overlay">
+                        <button class="tt-play" aria-label="تشغيل">▶</button>
+                        <div class="tt-info">
+                            <div class="tt-user">
+                                <div class="tt-avatar">ر</div>
+                                <span>@reem.abudhabi</span>
+                            </div>
+                            <p class="tt-caption">"كل صديقاتي طلبوا نفسه 😍"</p>
+                            <div class="tt-stats">
+                                <span>❤️ 256K</span>
+                                <span>💬 5.8K</span>
+                                <span>🔄 12K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tt-card mood-gold">
+                    <div class="tt-overlay">
+                        <button class="tt-play" aria-label="تشغيل">▶</button>
+                        <div class="tt-info">
+                            <div class="tt-user">
+                                <div class="tt-avatar">ن</div>
+                                <span>@nora.sharjah</span>
+                            </div>
+                            <p class="tt-caption">"المنتج بقيمته الحقيقية 🔥"</p>
+                            <div class="tt-stats">
+                                <span>❤️ 178K</span>
+                                <span>💬 4.5K</span>
+                                <span>🔄 9.1K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#order" class="btn btn-gold btn-lg btn-block" style="margin-top:32px">
+                🛒 اطلبه الآن وكن التالي
+            </a>
         </div>
     </section>
 

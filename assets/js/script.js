@@ -39,6 +39,71 @@
 
     updateSummary();
 
+    // ===== Gallery Switcher =====
+    const galleryMain = document.getElementById('galleryMain');
+    const thumbs = document.querySelectorAll('.thumb');
+
+    const galleryLabels = {
+        warm: '🌅 وضع الغروب',
+        rose: '🌸 الوضع الوردي',
+        purple: '💜 الوضع الأرجواني',
+        gold: '✨ الوضع الذهبي',
+        room: '🛏️ في الغرفة',
+        box: '📦 التغليف الفاخر',
+    };
+
+    thumbs.forEach((thumb) => {
+        thumb.addEventListener('click', () => {
+            const target = thumb.dataset.img;
+            thumbs.forEach((t) => t.classList.remove('active'));
+            thumb.classList.add('active');
+
+            if (galleryMain) {
+                const img = galleryMain.querySelector('.gallery-img');
+                const label = galleryMain.querySelector('.gallery-label');
+                if (img) {
+                    img.style.opacity = '0';
+                    setTimeout(() => {
+                        img.className = `gallery-img mood-${target}`;
+                        if (target === 'box') {
+                            img.innerHTML = '<span class="gallery-label">' + galleryLabels[target] + '</span>';
+                        } else {
+                            img.innerHTML = `
+                                <div class="gallery-lamp">
+                                    <div class="gl-glow"></div>
+                                    <div class="gl-body"></div>
+                                    <div class="gl-base"></div>
+                                </div>
+                                <span class="gallery-label">${galleryLabels[target]}</span>`;
+                        }
+                        img.style.opacity = '1';
+                    }, 200);
+                }
+            }
+        });
+    });
+
+    // ===== Video Demo Click =====
+    const mainVideo = document.getElementById('mainVideo');
+    if (mainVideo) {
+        mainVideo.addEventListener('click', () => {
+            // Placeholder — will be replaced with real video later
+            alert('🎬 الفيديو الحقيقي راح يضاف هنا قريباً!\n\nلتجربة المنتج، اطلب الآن - الدفع عند الاستلام.');
+            const orderSection = document.getElementById('order');
+            if (orderSection) {
+                const top = orderSection.getBoundingClientRect().top + window.pageYOffset - 80;
+                window.scrollTo({ top, behavior: 'smooth' });
+            }
+        });
+    }
+
+    // ===== TikTok Cards Click =====
+    document.querySelectorAll('.tt-card').forEach((card) => {
+        card.addEventListener('click', () => {
+            window.open('https://www.tiktok.com/search?q=sunset+lamp', '_blank');
+        });
+    });
+
     // ===== Form Submission =====
     const form = document.getElementById('orderForm');
     const modal = document.getElementById('successModal');
